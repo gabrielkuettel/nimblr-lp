@@ -32,8 +32,8 @@ export default {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ['jokker', 'sans-serif'],
-        serif: ['rocaone', 'serif'],
+        sans: ['var(--font-jokker)'],
+        display: ['var(--font-rocaOne)'],
       },
       maxWidth: {
         '2xl': '40rem',
