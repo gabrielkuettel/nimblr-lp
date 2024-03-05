@@ -45,7 +45,7 @@ export function Hero() {
             </div>
           </div>
           <div
-            className="relative ml-auto mt-16 w-max md:ml-0 md:mt-32 xl:-mt-16"
+            className="relative my-16 ml-auto w-max md:my-32 md:ml-0 xl:-my-16"
             style={{ transform: `translate3d(0px, 0px, 0px)` }}
           >
             <span className="text-charcoal text-xs font-light uppercase tracking-widest">
