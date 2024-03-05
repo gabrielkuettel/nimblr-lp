@@ -6,11 +6,11 @@ import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Nimblr',
+    default: 'Nimblr - Insurance made simple.',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Nimblr is building a brighter insurance future where everyone can get the policy they want for what they need.',
 }
 
 const inter = Inter({
@@ -34,7 +34,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'h-full scroll-smooth bg-white antialiased',
+        'bg-cream h-full scroll-smooth antialiased',
         inter.variable,
         lexend.variable,
       )}

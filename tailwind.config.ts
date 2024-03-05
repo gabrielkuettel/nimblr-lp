@@ -21,6 +21,13 @@ export default {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      colors: {
+        charcoal: '#2d2d2dff',
+        cream: '#fef6f0ff',
+        stone: '#e7e2d3ff',
+        pink: '#f5c5b8ff',
+        red: '#ff595dff',
+      },
       borderRadius: {
         '4xl': '2rem',
       },
