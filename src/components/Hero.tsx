@@ -15,16 +15,13 @@ export function Hero() {
       <section id="home" className="relative flex items-center">
         <Container className="relative z-10 pt-28">
           <div className="media-h:md:pb-32 media-h:lg:pb-12 pb-12 xl:pb-12">
-            <h1
-              className="text-charcoal text-5xl font-bold sm:text-8xl md:text-8xl xl:leading-tight"
-              style={{ transform: 'translate3d(0px, 0px, 0px)' }}
-            >
+            <h1 className="text-charcoal font-serif text-5xl sm:text-8xl md:text-8xl xl:leading-tight">
               We're building.
             </h1>
           </div>
           <div>
             <div className="ml-auto md:w-2/3 md:pt-12 lg:w-1/2">
-              <p className="text-charcoal mb-20 text-lg font-light sm:text-2xl xl:leading-normal">
+              <p className="text-charcoal mb-20 font-sans text-lg font-light sm:text-2xl xl:leading-normal">
                 Nimblr is building a brighter insurance future where everyone
                 can get the policy they want for what they need. We believe that
                 if you love it, protect it.
@@ -35,7 +32,7 @@ export function Hero() {
                 aria-label="Home"
                 className="text-charcoal relative inline-block py-1.5"
               >
-                <span className="relative flex items-center justify-center">
+                <span className="relative flex items-center justify-center font-sans">
                   Powered by
                   <LogoAlgorand className="text-charcoal -ml-1 h-[2.8rem] w-auto" />
                 </span>
@@ -48,7 +45,7 @@ export function Hero() {
             className="relative my-16 ml-auto w-max md:my-32 md:ml-0 xl:-my-16"
             style={{ transform: `translate3d(0px, 0px, 0px)` }}
           >
-            <span className="text-charcoal text-xs font-light uppercase tracking-widest">
+            <span className="text-charcoal font-sans font-light tracking-widest">
               Follow us
             </span>
             <ul className="text-charcoal relative z-20 mt-4 space-y-2 text-sm font-light">
